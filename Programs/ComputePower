@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class ComputingPower {
+    public static void main(String[] args) {
+        System.out.println("enter the number :");
+        int n1 = new Scanner(System.in).nextInt();
+        System.out.println("enter the power of number :");
+        int n2 = new Scanner(System.in).nextInt();
+        int pow = 1;
+        while(n2>0){
+            pow = pow * n1;
+            n2--;
+        }
+        System.out.println(pow);
+    }
+}
