@@ -5,10 +5,15 @@ public class PalindromeNumber {
         System.out.println("enter the number:");
         int n = new Scanner(System.in).nextInt();
         int copy = n;
+        int rev = 0;
         if (n== 0){
             System.out.println("palindrome number");
         }
-        int rev = 0;
+        elseif(n%10==0){
+            System.out.println("not a palindrome number");
+            
+        }
+        
         while(n>0){
             rev = rev*10 + n%10;
             n=n/10;
