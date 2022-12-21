@@ -19,3 +19,6 @@ public class INTREVse{
     }
     
 }
+
+
+// isme stack upar jaate waqt result hm print karva rhe hain mtlb k stack bante time na k girte waqt.....
