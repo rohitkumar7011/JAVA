@@ -22,9 +22,11 @@ public class ReverseArray {
             i++;
             j--;
         }
-        // FOR PRINTING THE ARRYA...
+        // FOR PRITING THE ARRYA...
         for (int m = 0; m < arr.length; m++) {
-            System.out.println(arr[m] + " ");
+            System.out.println(arr[m] + " ")
+            
+            ;
         }
 
     }
