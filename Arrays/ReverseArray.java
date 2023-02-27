@@ -12,5 +12,20 @@ public class ReverseArray {
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
+        int s = arr.length;
+        int i = 0;
+        int j = s - 1;
+        while (i < j) {
+            int temp = arr[i];
+            arr[i] = arr[j];
+            arr[j] = temp;
+            i++;
+            j--;
+        }
+        // FOR PRITING THE ARRYA...
+        for (int m = 0; m < arr.length; m++) {
+            System.out.println(arr[m] + " ");
+        }
+
     }
 }
