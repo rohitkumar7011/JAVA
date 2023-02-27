@@ -29,5 +29,6 @@ public class SecondMaxElement {
         } else {
             System.out.println("element is: " + second);
         }
+        sc.close();
     }
 }
