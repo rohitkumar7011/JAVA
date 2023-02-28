@@ -9,6 +9,7 @@ public class FACtorial {
             fact = fact * i;
 
         }
+        sc.close();
         System.out.println(fact);
     }
 }
