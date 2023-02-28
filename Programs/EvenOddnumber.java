@@ -16,6 +16,7 @@ public class EvenOddnumber {
             
             }
         }
+        sc.close();
         System.out.println(evencount);
         System.out.println(oddcount);
     }
