@@ -14,6 +14,7 @@ public class Rece {
 
         }
         System.out.println(rev);
+        sc.close();
     }
 }
 
