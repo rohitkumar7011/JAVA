@@ -19,6 +19,7 @@ public class PalindromeSTR {
         else{
             System.out.println("Not a Palindrome Str.");
         }
+        sc.close();
     }
     
 }
