@@ -16,6 +16,6 @@ public class Lcmof2Number {
             max++;
         }
         System.out.println(max);
-        sc.close;
+        sc.close();
     }
 }
