@@ -28,6 +28,7 @@ public class Printdigit {
         System.out.println(pow);
         System.out.println(copy1);
         print( pow , copy1);
+        sc.close();
     
 
     }
